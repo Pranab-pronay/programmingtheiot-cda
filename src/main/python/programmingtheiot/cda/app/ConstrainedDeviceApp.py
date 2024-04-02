@@ -46,7 +46,7 @@ class ConstrainedDeviceApp():
 
 	def stopApp(self, code: int):
 		"""
-		Stop the CDA. Calls stopManager() on the device data manager instance.
+		Stop the CDA. Clls stopManager() on the device data manager instance.
 		
 		"""
 		logging.info("CDA stopping...")
