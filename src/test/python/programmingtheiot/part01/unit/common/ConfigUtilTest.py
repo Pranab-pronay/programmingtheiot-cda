@@ -9,7 +9,9 @@
 
 import logging
 import unittest
-
+import sys
+sys.path.append('src/main/python')
+sys.path.append('src/test/python')
 import programmingtheiot.common.ConfigConst as ConfigConst
 
 from programmingtheiot.common.ConfigUtil import ConfigUtil

@@ -11,6 +11,9 @@ import logging
 import unittest
 
 from time import sleep
+import sys
+sys.path.append('src/main/python')
+sys.path.append('src/test/python')
 
 from programmingtheiot.cda.system.SystemPerformanceManager import SystemPerformanceManager
 from programmingtheiot.common.DefaultDataMessageListener import DefaultDataMessageListener
