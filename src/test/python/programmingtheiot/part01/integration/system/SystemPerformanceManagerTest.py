@@ -56,7 +56,7 @@ class SystemPerformanceManagerTest(unittest.TestCase):
 	def testStartAndStopManager(self):
 		self.spMgr.startManager()
 		
-		sleep(60)
+		sleep(10)
 		
 		self.spMgr.stopManager()
 
