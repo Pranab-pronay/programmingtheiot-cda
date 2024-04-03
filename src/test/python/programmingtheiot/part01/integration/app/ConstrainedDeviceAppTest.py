@@ -45,8 +45,6 @@ class ConstrainedDeviceAppTest(unittest.TestCase):
 		
 	def setUp(self):
 		pass
-	def testFailedTestCase(self):
-		self.assertTrue(False, "Intentionally failing the test")
 
 	def tearDown(self):
 		pass
